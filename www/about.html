@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NYCETY</title>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--Custom Theme files-->
+<!-- Leaflet -->
+    <link rel="stylesheet" href="js/leaflet.css" />
+    <script src="js/leaflet-src.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="css/ui.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel='stylesheet' type='text/css' href="css/jquery.easy-gallery.css" />
+<!--//Custom Theme files-->
+<!--js-->
+<script src="js/jquery-2.2.3.min.js"></script> 
+<script src="js/SmoothScroll.min.js"></script>
+<!-- Our own CSS code -->
+<link rel="stylesheet" href="css/styles.css">
+
+
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smooth-scrolling-->	
+</head>
+<body>
+	<!--banner-->
+	<div id="home" class="banner">
+		<!--header-->
+		<div class="header">
+			<div class="container">	
+				<div class="menu-wrap">
+					<nav class="menu">
+						<div class="logo">
+							<h1><a href="index.html">NYCETY</a></h1>
+						</div>
+						<div class="icon-list">
+							<ul>
+								<li><a href="index.html" class="active"><i class="glyphicon glyphicon-home" aria-hidden="true"></i> Home</a></li>
+								<li><a href="about.html"><i class="glyphicon glyphicon-info-sign" aria-hidden="true"></i> About</a></li>
+							</ul>
+						</div>
+					</nav>
+					<button class="close-button" id="close-button">Close Menu</button>
+				</div>
+				<button class="menu-button" id="open-button">Open Menu</button>
+				<div class="nav navbar-nav w3ls-logo">
+					<h2><a href="index.html">NYCETY</a></h2>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!--//header-->
+		<!-- about -->
+	<div id="about" class="about">
+		<div class="container">	
+			<div class="col-md-6 about-grid">
+				<h3>About NYCETY </h3>
+				<p> NYCety is an application that reads all 311 data submitted for the five boroughs of New York City and visualizes the results on a map of the city. Users allow the app to read their location, and data is overlaid onto a map of the current zip code. The data can be filtered by submission type, date, and issue category, and shows a user what's happening in their area.</p>
+				
+			</div>
+			<div class="col-md-6 about-grid">
+				<img src="images/img1.png" alt=""/>
+			</div>
+			<div class="clearfix"> </div> 
+		</div>
+	</div>
+	<!-- //about -->
+    <!-- Our own JavaScript code -->
+    <script src="js/scripts.js"></script>
+
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+
+			<div class="footer-left">
+				<p>2016 | Design by NYCETY Team</a></p>
+			</div>
+			
+		</div>
+	</div>
+	<!-- //footer -->	 
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- menu-js -->
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+	<!-- //menu-js -->	 
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

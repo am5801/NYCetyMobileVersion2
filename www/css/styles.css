@@ -1,0 +1,56 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+/*html, body {
+    height: 100vh;
+    width: 100vw;
+}
+*/
+
+#map {
+	height: 90vh;
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.row {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.btn-group {
+	/*padding-top: 20px;
+	padding-bottom: 20px;*/
+	padding: 20px;
+	display: inline-block;
+}
+
+.jumbotron {
+	background-color: white;
+	color: black;
+	border-style: solid;
+	border-color: blue;
+	text-align: justify;
+	margin: 10px;
+}
+
+.jumbotron h5{
+	text-align: center;
+	color: blue;
+	font-size: 18px;
+	margin-bottom: -20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.jumbotron h1 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 39px;
+	text-align: center;
+	color: black;
+	margin-top: -20px;
+}
+
