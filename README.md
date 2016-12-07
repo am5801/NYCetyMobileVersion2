@@ -1,3 +1,3 @@
-# NYCetyMobile
+# NYCetyMobile V2
 
-A PhoneGap friendly version of NYCety
+Version 2 of the PhoneGap friendly version of NYCety
